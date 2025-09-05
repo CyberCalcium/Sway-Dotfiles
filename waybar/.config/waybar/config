@@ -1,0 +1,106 @@
+{
+    "layer": "top",
+    "spacing": 0,
+    "height": 0,
+
+    "margin-top": 0,
+    "margin-right": 0,
+    "margin-bottom": 0,
+    "margin-left": 0,
+
+    "modules-left": [
+        "cpu",
+        "memory",
+        "tray"
+    ],
+
+    "modules-center": [
+        "sway/workspaces"
+    ],
+
+    "modules-right": [
+        "backlight",
+        "battery",
+        "network",
+        "pulseaudio",
+        "clock"
+    ],
+
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "tooltip": false,
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "format-icons": {
+            "default": "",
+            "focused": ""
+        },
+        "format": "{icon}"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-icons": ["","",""],
+        "format-muted": " {volume}%",
+        "on-click": "pavucontrol"
+    },
+
+    "backlight": {
+        "format": " {percent}%",
+        "on-click": "brightnessctl"
+    },
+
+    "tray": {
+        "spacing": 10,
+        "tooltip": false
+    },
+
+    "clock": {
+        "format": "{:%I:%M %p}",
+        "tooltip": false
+    },
+
+    "cpu": {
+        "format": " {usage}%",
+        "interval": 2,
+
+        "states": {
+            "critical": 90
+        }
+    },
+
+    "memory": {
+        "format": " {percentage}%",
+        "interval": 2,
+
+        "states": {
+            "critical": 80
+        }
+    },
+
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "interval": 5,
+        "states": {
+            "critical": 25
+        },
+        "format-icons": ["󰁺","󰁻","󰁼","󰁽","󰁾","󰁿","󰂀","󰂁","󰂂","󰁹"],
+        "format-critical": "󰂃 {capacity}%",
+        "format-charging": " {capacity}%",
+        "tooltip": false
+    },
+
+    "network": {
+        "format-wifi" : "󰖩 {bandwidthDownBits} ↓ / {bandwidthUpBits} ↑",
+        "format-ethernet": "󰈀 {bandwidthDownBits} ↓ / {bandwidthUpBits} ↑",
+        "format-disconnected" : " No Connection",
+        "tooltip": true,
+        "on-click": "kitty -e nmtui"
+    }
+}
