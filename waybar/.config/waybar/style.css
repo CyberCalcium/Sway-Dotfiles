@@ -10,12 +10,12 @@
 
 window#waybar {
     background: #1a1a1d;
-    border-bottom: 2px solid #5a5a5a;
+    border-bottom: 2px solid #e0e0e0;
 }
 
 tooltip {
     background-color: #1a1a1d;
-    border: 2px solid #5a5a5a;
+    border: 2px solid #e0e0e0;
     color: #d6d6d6;
 }
 
@@ -35,7 +35,7 @@ tooltip {
     border-radius: 8px;
     background-color: #262626;
     margin: 6px 0px 6px 6px;
-    border: 2px solid #5a5a5a;
+    border: 2px solid #e0e0e0;
 }
 
 #workspaces button {
@@ -58,7 +58,7 @@ tooltip {
 #clock {
     border-radius: 8px;
     background-color: #262626;
-    border: 2px solid #5a5a5a;
+    border: 2px solid #e0e0e0;
     color: #d6d6d6;
 }
 
@@ -71,19 +71,19 @@ tooltip {
 #pulseaudio {
     border-radius: 8px;
     background-color: #262626;
-    border: 2px solid #5a5a5a;
+    border: 2px solid #e0e0e0;
     color: #d6d6d6;
 }
 
 #cpu.critical,
 #memory.critical {
     background-color: #4d4d4d;
-    border: 2px solid #b03a48;
+    border: 2px solid #e0e0e0;
     color: #b03a48;
 }
 
 #battery.critical {
     background-color: #4d4d4d;
-    border: 2px solid #b03a48;
+    border: 2px solid #e0e0e0;
     color: #da4343;
 }

@@ -46,32 +46,32 @@
         {
             "type": "wm",
             "key": "WM   ",
-            "keyColor": "90",
+            "keyColor": "37",
         },
         {
             "type": "wmtheme",
             "key": " ├ 󰉼 ",
-            "keyColor": "90",
+            "keyColor": "37",
         },
         {
             "type": "icons",
             "key": " ├ 󰀻 ",
-            "keyColor": "90",
+            "keyColor": "37",
         },
         {
             "type": "cursor",
             "key": " ├  ",
-            "keyColor": "90",
+            "keyColor": "37",
         },
         {
             "type": "terminal",
             "key": " ├  ",
-            "keyColor": "90",
+            "keyColor": "37",
         },
         {
             "type": "terminalfont",
             "key": " └  ",
-            "keyColor": "90",
+            "keyColor": "37",
         },
         "break",
         {

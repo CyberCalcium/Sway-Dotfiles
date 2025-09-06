@@ -192,7 +192,7 @@ set $launcher fuzzel
 # App shortcuts
 #
     # Launch the file explorer
-    bindsym $mod+n exec $term -e ranger
+    bindsym $mod+n exec $term -e yazi
 
     # Launch the browser
     bindsym $mod+o exec firefox
