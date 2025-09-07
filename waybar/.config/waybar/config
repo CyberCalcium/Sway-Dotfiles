@@ -97,13 +97,16 @@
     },
 
     "network": {
-        "format-wifi" : "󰖩 {essid} ({signalStrength}%) ",
-        "format-ethernet": "󰈀 {ifname}",
-        "format-disconnected" : " No Connection",
+        "format-wifi": "{icon}",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰤮",
+        "tooltip-format": "{essid} ({signalStrength}%)",
+        "tooltip-format-disconnected": "No Connection",
         "format-icons": [
-            "󰖩", "󰖨", "󰖧", "󰖦", "󰖥"
+            "󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
         ],
-        "tooltip": true,
+        "interval": 10,
         "on-click": "kitty -e nmtui"
     }
+
 }
